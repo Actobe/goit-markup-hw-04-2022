@@ -529,15 +529,17 @@ color: #FFFFFF;
 .footer-container {
     display: flex;
     align-items: baseline;
-    
-}
-.social-footer {
-    display: flex;
+ 
 }
 
+.social-footer {
+display: block;
+align-items: center;
+padding-left: 70px;
+}
 .footer-address-list {
 min-width: 230px; 
-margin-right: 70px;
+
 }
 .social-footer {
     min-width: 206px;
@@ -545,13 +547,13 @@ margin-right: 70px;
 .footer-social-list {
     display: flex; 
     justify-content: space-between;
+    align-items: center;
 }
 .footer-social-list {
-    padding-top: 20px;
+    padding-top: 20px;   
 }
-.footer-social-kist-item:not(:last-child) {
-    padding-right: 22px;
-    
+.footer-social-kist-item {
+    padding-right: 10px;  
 }
 
 
@@ -673,3 +675,100 @@ color: #2196F3;
     display: block;
     margin-bottom: 20px;
 }
+.address {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    }
+    .mail {
+        font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+    }
+    .mail {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    }
+    .phone {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    }
+    .phone:focus {
+    color: #2196F3;
+    
+    }
+    .mail:hover, 
+    .mail:focus {
+    color: #2196F3;
+    
+    }
+    .phone:hover {
+    color: #2196F3;
+    }
+    .address:hover, 
+    .address:focus {
+    color: #2196F3;
+    }
+    .address:not(:last-child) {
+        margin-bottom:10px;
+    }
+    .welcome {
+        font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+    .footer-container {
+        display: flex;
+        align-items: baseline;
+     
+    }
+    
+    .social-footer {
+    display: block;
+    align-items: center;
+    padding-left: 70px;
+    }
+    .footer-address-list {
+    min-width: 230px; 
+    
+    }
+    .social-footer {
+        min-width: 206px;
+    }
+    .footer-social-list {
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-social-list {
+        padding-top: 20px;   
+    }
+    .footer-social-kist-item {
+        padding-right: 10px;  
+    }
+    
+    
