@@ -82,6 +82,13 @@ justify-content: space-between;
 .contact-mail-icon {
     margin-right:10px;
 }
+.contact-mail-link:hover,
+.contact-mail-link:focus{
+color: #2196F3;
+fill: #2196F3;
+}
+
+
 .contact-mail-icon:hover,
 .contact-mail-icon:focus { 
     fill: #2196F3;
@@ -93,6 +100,11 @@ justify-content: space-between;
 .contact-number-icon:focus { 
     fill: #2196F3;
 }
+.contact-number-link:hover,
+.contact-number-link:focus {
+    color: #2196F3;
+}
+
 .logo {
     margin-right: 92px;
 }
@@ -119,8 +131,11 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-margin-right: 50px;
+
 color: #757575;
+}
+.contact-list-mail {
+    margin-right: 50px;
 }
 .contact-number {
 font-family: 'Roboto', sans-serif;
@@ -136,6 +151,13 @@ color: #757575;
 .contact-mail:focus {
 color: #2196F3;  
 } 
+.contact-list-mail:hover,
+.contact-list-mail:focus,
+contact-mail-icon:hover,
+contact-mail-icon: :focus {
+color: #2196F3;   
+}
+
 .contact-number:hover,
 .contact-number:focus {
 color:#2196F3;  
@@ -152,6 +174,10 @@ background: #2F303A;
    url(../images/hero/bg.jpg);
    background-size: cover;
    background-color: #C4C4C4;
+
+}
+.container {
+    max-width: 1600px;
 }
 .icons-list-link {
     display: flex;
@@ -160,20 +186,22 @@ background: #2F303A;
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
-    border-radius: 4px; 
-     
+    border-radius: 4px;  
 }
 .icons-section {
     display: flex; 
     justify-content: space-between;
-    
-    
-  
 }
-.icons-list-link:hover,
-.icons-list-link:focus {
+
+.icons-list-link:hover .icons-list-icon, 
+.icons-list-link:focus .icons-list-icon {
 fill: #2196F3;
-} 
+ 
+}
+
+
+
+
 .icons-item {
     margin-right: 30px;
 }
@@ -469,6 +497,7 @@ line-height: 1.71;
 /* or 171% */
 letter-spacing: 0.03em;
 color: #FFFFFF;
+margin-bottom: 10px;
 }
 .mail {
     font-family: Roboto;
@@ -485,7 +514,7 @@ color: rgba(255, 255, 255, 0.6);
 .mail {
 display: block;
 margin-bottom: 10px;
-margin-top: 10px;
+
 }
 .phone {
 font-family: 'Roboto', sans-serif;
@@ -549,13 +578,13 @@ min-width: 230px;
     justify-content: space-between;
     align-items: center;
 }
-.footer-social-list {
-    padding-top: 20px;   
-}
-.footer-social-kist-item {
-    padding-right: 10px;  
-}
 
+.footer-social-kist-item {
+    margin-right: 10px;  
+}
+.social-list-link {
+    background-color: #FFFFFF1A;
+}
 
 //second page//
 
@@ -645,6 +674,7 @@ margin-right: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
+    padding-right: 20px ;
     
 }
 .inspiration {
@@ -660,6 +690,12 @@ margin-right: 30px;
 }
 .inspiration-list:nth-last-child(-n + 3) {margin-bottom:0;
 }
+.inspiration-list:hover,
+.inspiration-list:focus {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
 
 .footer-logo {
     font-family: Raleway, sans-serif;
